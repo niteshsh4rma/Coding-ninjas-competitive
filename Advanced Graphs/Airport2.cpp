@@ -30,7 +30,9 @@ Sample Output
 Case #1: 145 1
 Case #2: 2090 2
 
-*/
+// solving advanced graoh problems
+
+solving advanced grap*/
 
 #include <bits/stdc++.h>
 using namespace std;
@@ -65,7 +67,7 @@ int findParent(int *parent ,int vertex){
 
 int getOutput(Edges *input,int size,int *parent,int V,int A,int *count){
         
-    int totalweight=0;
+    int Totalweight=0;
     
         for(int i=0;i<size;i++){
             Edges e = input[i];
@@ -91,7 +93,7 @@ int getOutput(Edges *input,int size,int *parent,int V,int A,int *count){
             
         }
         
-    totalweight+=((*count)*A);
+    Totalweight+=((*count)*A);
     
     return totalweight;
     
